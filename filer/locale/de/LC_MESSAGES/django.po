@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: image filer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-09 15:44+0100\n"
+"PO-Revision-Date: 2010-03-01 17:49+0100\n"
+"Last-Translator: Patrick Lauber <patrick.lauber@divio.ch>\n"
+"Language-Team: de <developers@divio.ch>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: SWITZERLAND\n"
+
+#: fields/file.py:58
+msgid "Lookup"
+msgstr "Suchen"
+
+#: models/filemodels.py:17
+msgid "file_type_plugin_name"
+msgstr ""
+
+#: models/foldermodels.py:175
+msgid "all items"
+msgstr "alle Objekte"
+
+#: models/foldermodels.py:176
+msgid "this item only"
+msgstr "nur dieses Objekt"
+
+#: models/foldermodels.py:177
+msgid "this item and all children"
+msgstr "diese Object und alle Unter-Objekte"
+
+#: models/foldermodels.py:181
+msgid "type"
+msgstr "Typ"
+
+#: models/foldermodels.py:182
+msgid "user"
+msgstr "Benutzer"
+
+#: models/foldermodels.py:183
+msgid "group"
+msgstr "Gruppe"
+
+#: models/foldermodels.py:184
+msgid "everybody"
+msgstr "Alle"
+
+#: models/foldermodels.py:186
+msgid "can edit"
+msgstr "Kann editieren"
+
+#: models/foldermodels.py:187
+msgid "can read"
+msgstr "Kann lesen"
+
+#: models/foldermodels.py:188
+msgid "can add children"
+msgstr "Kann Unter-Objekte erstellen"
+
+#: models/foldermodels.py:214
+msgid "Folder Permission"
+msgstr "Ordner Berechtigung"
+
+#: models/foldermodels.py:215
+msgid "Folder Permissions"
+msgstr "Ordner Berechtigungen"
+
+#: models/imagemodels.py:31
+msgid "date taken"
+msgstr "Datum vergeben"
+
+#: models/virtualitems.py:30
+msgid "unfiled files"
+msgstr "unkategorisierte Dateien"
+
+#: models/virtualitems.py:40
+msgid "files with missing metadata"
+msgstr "Dateien mit fehlenden Meta-Daten"
+
+#: templates/admin/filer/folder/change_form.html:18
+#: templates/admin/filer/image/change_form.html:11
+msgid "History"
+msgstr "Geschichte"
+
+#: templates/admin/filer/folder/change_form.html:19
+#: templates/admin/filer/image/change_form.html:12
+msgid "View on site"
+msgstr "Auf der Seite anschauen."
+
+#: templates/admin/filer/folder/directory_listing.html:55
+msgid "New Folder"
+msgstr "Neuer Ordner"
+
+#: templates/admin/filer/folder/directory_listing.html:69
+#: templates/admin/filer/tools/search_form.html:13
+#, python-format
+msgid "1 folder"
+msgid_plural "%(counter)s folders"
+msgstr[0] "ein Ordner"
+msgstr[1] "%(counter)s Ordner"
+
+#: templates/admin/filer/folder/directory_listing.html:69
+#, python-format
+msgid "1 file"
+msgid_plural "%(counter)s files"
+msgstr[0] "eine Datei"
+msgstr[1] "%(counter)s Dateien"
+
+#: templates/admin/filer/folder/directory_table.html:11
+msgid "Name"
+msgstr "Name"
+
+#: templates/admin/filer/image/change_form.html:24
+msgid "Set focal point"
+msgstr "Focal-Punkt setzen"
+
+#: templates/admin/filer/tools/search_form.html:10
+msgid "Go"
+msgstr "Los"
+
+#: templates/admin/filer/tools/search_form.html:14
+#, python-format
+msgid "1 image"
+msgid_plural "%(counter)s images"
+msgstr[0] "ein Bild"
+msgstr[1] "%(counter)s Bilder"
+
+#~ msgid "Image (image filer)"
+#~ msgstr "Bild (Image Filer)"
+
+#~ msgid "Teaser (image filer)"
+#~ msgstr "Vorschau (Image Filer)"
+
+#~ msgid "Image Folder from Filer"
+#~ msgstr "Bilder Ordner aus Image Filer"
+
+#~ msgid "Slideshow of image folder"
+#~ msgstr "Slideshow aus Bilder Ordner"
+
+#~ msgid "left"
+#~ msgstr "links"
+
+#~ msgid "right"
+#~ msgstr "rechts"
+
+#~ msgid "link"
+#~ msgstr "Link"
+
+#~ msgid "if present image will be clickable"
+#~ msgstr "Bild wird klickbar, falls vorhanden."
+
+#~ msgid "page"
+#~ msgstr "Seite"
+
+#~ msgid "side"
+#~ msgstr "Seite"
+
+#~ msgid "title"
+#~ msgstr "Titel"
+
+#~ msgid "If present image will be clickable"
+#~ msgstr "Bild wird klickbar, falls vorhanden."
+
+#~ msgid "If present image will be clickable."
+#~ msgstr "Bild wird klickbar, falls vorhanden."
+
+#~ msgid "description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Models available in the %(name)s application."
+#~ msgstr "vorhandene Models in der %(name)s Applikation."
+
+#~ msgid "%(name)s"
+#~ msgstr "%(name)s"
+
+#~ msgid "Add"
+#~ msgstr "Hinzufügen"
+
+#~ msgid "Change"
+#~ msgstr "Ändern"
+
+#~ msgid "You don't have permission to edit anything."
+#~ msgstr "Sie haben keine Berechtigung irgendwas zu ändern."
+
+#~ msgid "insert"
+#~ msgstr "einfühgen"
